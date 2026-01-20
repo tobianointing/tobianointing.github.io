@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8' />
+<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+<title>Certificate</title>
+<link rel='preconnect' href='https://fonts.googleapis.com' />
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+<link href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap' rel='stylesheet' />
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap' />
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap' />
+<style>
+@font-face {
+font-family: 'OldEnglish';
+src: url('https://data-science-nigeria.github.io/dsn-dpi-backend-service/template/assests/images/oldenglishtextmt.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+width: 1000px !important;
+background-color: #fff;
+width: 100%;
+margin: 0;
+padding: 0px;
+}
+.certificate-wrapper {
+width: 1000px;
+margin: 0 auto;
+background-color: #fff;
+display: table;
+}
+.certificate-container {
+display: table-row;
+width: 100%;
+background-color: #fff;
+overflow: hidden;
+}
+.left-section, .right-section {
+display: table-cell;
+vertical-align: top;
+}
+.left-section {
+width: 15%;
+padding: 40px;
+background-image: url('https://data-science-nigeria.github.io/dsn-dpi-backend-service/template/assests/images/Stick.png');
+background-size: cover;
+background-position: top right;
+background-repeat: repeat-y;
+background-color: transparent;
+}
+.right-section {
+width: 85%;
+padding: 40px;
+background-image: 
+url('https://data-science-nigeria.github.io/dsn-dpi-backend-service/template/assests/images/watermarkCircle.png'),
+url('https://data-science-nigeria.github.io/dsn-dpi-backend-service/template/assests/images/middleBasicBackground.png');
+background-position: center center, top left;
+background-size: 730px auto, cover;
+background-repeat: no-repeat, repeat;
+position: relative;
+background-color: transparent;
+}
+.certificate-content {
+text-align: center;
+font-family: 'Old Standard TT', serif;
+color: #234d20;
+position: relative;
+z-index: 1;
+}
+.header-title {
+font-family: 'Poppins', sans-serif;
+font-size: 30px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.logo {
+width: 110px;
+margin-top: 10px;
+}
+.cert-info-wrapper {
+text-align: end;
+}
+.cert-info {
+display: inline-block;
+text-align: left;
+}
+.sub-title {
+font-size: 24px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+display: inline-block;
+}
+.cert-number {
+font-size: 18px;
+font-weight: 700;
+display: inline-block;
+}
+.main-title {
+font-family: 'OldEnglish', serif;
+font-size: 70px;
+font-weight: 400;
+margin-top: 27px;
+margin-bottom: 22.43px;
+color: #36802d;
+}
+.certification-text {
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+font-weight: 400;
+font-style: italic;
+margin-bottom: 17.05px;
+}
+.candidate-name {
+font-family: 'Poppins', sans-serif;
+font-size: 30px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.name-divider {
+width: 90%;
+border: 0;
+border-top: 2px solid #2d5a27;
+margin: 10px auto;
+margin-bottom: 29.71px;
+}
+.school-name {
+font-family: 'Poppins', sans-serif;
+font-size: 22px;
+font-weight: 700;
+margin-bottom: 20.78px;
+text-transform: uppercase;
+}
+.school-name span {
+font-family: 'Poppins', sans-serif;
+font-size: 19px;
+font-weight: 400;
+font-style: italic;
+margin-right: 0.2rem;
+text-transform: lowercase;
+}
+.cert-body {
+font-family: 'Poppins', sans-serif;
+font-size: 22px;
+font-weight: 500;
+margin-bottom: 30.56px;
+}
+.exam-date {
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 18.26px;
+}
+.subjects h4 {
+font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-weight: 600;
+margin-bottom: 5.52px;
+}
+.subjects ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.subjects li {
+font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-weight: 600;
+max-width: 100%;
+word-break: break-word;
+}
+.passed-note {
+font-family: 'Poppins', sans-serif;
+font-size: 22px;
+font-weight: 400;
+margin-bottom: 10.07px;
+}
+.passed-note span {
+font-weight: 600;
+}
+.grade-credit {
+font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-weight: 600;
+margin: 18.5px 0px;
+}
+.candidate-number {
+font-size: 20px;
+font-weight: 700;
+}
+.footer {
+margin-top: 15.58px;
+}
+.footer-text {
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 400;
+font-style: italic;
+text-align: center;
+}
+.signature-section {
+display: table;
+margin: 0 auto;
+}
+.signature-area {
+display: inline-block;
+text-align: center;
+margin-right: 20px;
+}
+.signature-img {
+width: 150px;
+height: auto;
+}
+.signature-divider {
+width: calc(1.1 * 150px);
+border: 0;
+border-top: 2px solid #2d5a27;
+margin: 5px 0;
+}
+.signature-text {
+font-family: 'Poppins', sans-serif;
+margin-top: 5px;
+font-size: 10px;
+font-weight: 500;
+}
+.qr-code-img {
+width: 120px;
+height: 120px;
+display: inline-block;
+}
+.single-space-text {
+white-space: normal;
+overflow-wrap: break-word;
+}
+</style>
+</head>
+<body>
+<div class='certificate-wrapper'>
+<div class='certificate-container'>
+<div class='left-section'></div>
+<div class='right-section'>
+<div class='certificate-content'>
+<h1 class='header-title'>FEDERAL REPUBLIC OF NIGERIA</h1>
+<div style='text-align: center; margin: 22.7px; margin-bottom: 0px'>
+<img src='https://data-science-nigeria.github.io/dsn-dpi-backend-service/template/assests/images/LOGO.png' alt='Logo' class='logo' />
+</div>
+<p class='sub-title'>EDO STATE</p>
+<div class='cert-info-wrapper'>
+<div class='cert-info'>
+<p class='cert-number'>CERT NO: {{certificateNo}}</p>
+</div>
+</div>
+<h2 class='main-title'>Middle Basic <br />Assessment Result</h2>
+<p class='certification-text'>This is to certify that</p>
+<h3 class='candidate-name single-space-text'>
+{{firstName}} {{middleName}} {{lastName}}
+</h3>
+<hr class='name-divider' />
+<p class='school-name'><span>of</span> {{schoolName}}</p>
+<p class='cert-body'>
+HAS SATISFIED THE MINISTRY OF EDUCATION <br />
+EDO STATE OF NIGERIA IN THE <br />
+MIDDLE BASIC ASSESSMENT EXAMINATION
+</p>
+<p class='exam-date'>HELD ON <br /><b>{{date}}</b></p>
+<div class='subjects'>
+<h4>SUBJECTS OF THE EXAMINATION</h4>
+<ul>
+<li>ENGLISH</li>
+<li>MATHEMATICS</li>
+<li>GENERAL PAPER</li>
+<li>VOCATIONAL STUDIES</li>
+</ul>
+</div>
+<p class='grade-credit'>GRADE: {{grade}}</p>
+<p class='passed-note'>
+THIS CANDIDATE ALSO PASSED <span>RELIGIOUS KNOWLEDGE</span>
+</p>
+<p class='candidate-number'>CANDIDATE NO: {{studentId}}</p>
+<div class='footer'>
+<p class='footer-text'>
+This certificate is exercised by the Ministry <br />
+of Education, Edo State, Nigeria
+</p>
+<div class='signature-section'>
+<div class='signature-area'>
+<img src='https://tobianointing.github.io/signature-hon.commissioner.png' alt='Signature' class='signature-img' />
+<hr class='signature-divider' />
+<p class='signature-text'>Registrar, Examination</p>
+</div>
+<img width='140px' height='140px' src='{{qr}}' alt='QR Code' class='qr-code-img' />
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
